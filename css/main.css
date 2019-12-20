@@ -1,0 +1,16 @@
+.nav-link{
+color: white !important;
+padding-bottom: 3px;
+}
+.navbar-brand{
+	padding-bottom: 3px;
+	color: gold !important;
+}
+.navbar a:hover {
+ 	border-bottom: 3px solid white; 
+  	padding-bottom: 0px; 
+ 	/* text-decoration: underline; */
+}
+.dropdown-item{
+	padding-bottom: 3px;
+}
