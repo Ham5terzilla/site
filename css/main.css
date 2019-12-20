@@ -1,5 +1,21 @@
+body{
+	background-size: contain;
+	background-attachment: fixed;
+	background-color: #fff4e6;
+}
+body#page1{
+	background: url(../page1.jpg) no-repeat fixed center top;
+	background-size: 100% auto;
+}
+body#page2{
+	background: url(../page2.jpg) no-repeat fixed center top;
+	background-size: 100% auto;
+}
+.navbar{
+	background-color: #3c2f2f;
+}
 .nav-link{
-color: white !important;
+color: #fff4e6 !important;
 padding-bottom: 3px;
 }
 .navbar-brand{
@@ -7,10 +23,48 @@ padding-bottom: 3px;
 	color: gold !important;
 }
 .navbar a:hover {
- 	border-bottom: 3px solid white; 
+ 	border-bottom: 3px solid #fff4e6; 
   	padding-bottom: 0px; 
+  	background-color: inherit;
+  	color:inherit;
  	/* text-decoration: underline; */
 }
 .dropdown-item{
 	padding-bottom: 3px;
+	/* background-color: #fff4e6; */
+}
+.dropdown-menu{
+	margin:0px;
+	background-color: #fff4e6;
+}
+.container {
+	margin-top:10px;
+	background-color: #be9b7bD0;
+	padding: 20px;
+	border: 2px solid #854442; 
+}
+.container#sub{
+	text-align: left;
+	margin:1%;
+	margin-left: 20%;
+	padding:00px;
+	width:80%;
+	background-color:#00000000;
+	border: none;
+}
+.primaryText {
+	color: black;
+}
+.btn{
+	width: 100%;
+	background-color: #3c2f2f;
+	border:none;
+}
+.btn:hover{
+	background-color: #3c2f2f;
+	border:none;
+}
+.btn:link{
+	background-color: #3c2f2f;
+	border:none;
 }
